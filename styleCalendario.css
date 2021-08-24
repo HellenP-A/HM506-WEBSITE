@@ -1,0 +1,192 @@
+* {   
+    margin: 0;
+    padding:0;
+  } 
+  #contenedor{
+    width: 1600px;
+    height: 1100px;
+    background-color: white;
+    margin: 0px auto;
+    padding-top: 50px;
+  }
+  #header {
+    height: 12%;
+    background-color: white;
+    border-radius: 1em;
+    margin: 1em;  
+  }
+  #nav {
+    height: 6%;
+    background-color: rgb(115, 201, 235);
+    border-radius: 1em;
+    margin: 1em;  
+  }
+  #nav2 {
+    height: 8%;
+    background-color: rgb(178, 209, 221);
+    border-radius: 1em;
+    margin: 1em;  
+  }
+  #contenido{
+      height: 35%;
+      background-color: white;
+      margin: 1em;
+  }
+  #footer{
+    height: 0%;
+    background-color: rgb(115, 201, 235);
+    border-radius: 1em;
+    margin: 1em;
+}
+#section{
+    height: 120%;
+    width: 95%;
+    background-color: white;
+    border-radius: 1em;
+    float:right;
+    margin: 0.5em;
+}
+.articulo{
+    width: 40%;
+    height: 85%;
+    background-color:white;
+    margin: 1em;
+    border-radius: 1em;
+    float: left;
+    text-align: center;
+}
+#logo{  
+    margin: 1em;
+    border-radius: 1em;
+    float: left;
+}
+#logoBanner{
+  margin: 1em;
+  border-radius: 1em;
+  float:left;
+  width: 10%;
+  height: 75%;
+}
+#titulo{
+    margin: 1em;
+    border-radius: 1em;
+    color: rgb(25, 25, 136);
+    text-align: center;
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px; 
+}
+.aNavegacion{
+    margin: 1em;
+    border-radius: 1em;
+    color: rgb(104, 104, 112);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;   
+    float: left;
+}
+.aNavegacion:hover {
+    color: #b4343b;
+  }
+  #Leyenda {
+    color:#524c56;
+    font-family: verdana;
+    font-size: 20px;
+    padding: 3%;
+    line-height: 155%;
+    text-align: justify;
+  }
+  h2 {
+    color: rgb(14, 61, 165);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+   
+  }
+  h3 {
+    color: rgb(25, 25, 136);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 3%;
+  }
+  .parrafo2 {
+    color: rgb(25, 25, 136);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    float: center;
+  }
+  .articuloPie{
+    width: 25%;
+    height: 60%;
+    background-color: rgb(115, 201, 235);
+    margin: 1em;
+    border-radius: 1em;
+    float: left;
+}
+.articuloPie2{
+    width: 25%;
+    height: 60%;
+    background-color: rgb(115, 201, 235);
+    margin: 1em;
+    border-radius: 1em;
+    float: right;
+}
+label {
+    color: rgb(53, 53, 151);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;   
+    float: left;
+}
+input {
+ 
+  border-radius: 1em;
+  color: rgb(104, 104, 112);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;   
+  float: right;
+}
+.aIngresar{
+  margin: 1em;
+  border-radius: 1em;
+  color: rgb(144, 20, 20);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;   
+  float: left;
+}
+.aIngresar:hover {
+  color: #ee0d2b;
+}
+table {
+  color: rgb(42, 90, 194);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;   
+  margin: 2px;
+  float: left;
+  
+}
+td {
+  color: rgb(42, 90, 194);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;   
+  margin: 4px;
+  float: left;
+}
+.boton {
+  color: rgb(117, 117, 133);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  float: center;
+}
+.boton:hover {
+  color: #ee0d2b;
+}

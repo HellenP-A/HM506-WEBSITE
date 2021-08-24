@@ -1,0 +1,87 @@
+<!-- ***********************************************
+
+[HTML /Hospital Metropolino-506]
+
+Proyecto:	Programación Web
+Version:	1.1
+Fecha de creación:	06/2021
+Desarrollado: Hellen Aguilar Noguera
+Profesora: Denieci Moreno Azofeifa
+Centro Universitario: UNED
+
+*********************************************** -->
+
+<!DOCTYPE html>
+<html>
+  <!-- Div es otra forma de dividir contenido para posteriormente aplicarle clases y modificar su estilo. -->
+<div>
+  <head>
+    <title>Login 506</title>
+  </head>
+  
+</div>
+  <!-- Div es otra forma de dividir contenido para posteriormente aplicarle clases y modificar su estilo. -->
+<div>
+  <body style="background-color:rgb(254, 254, 255);">
+    <header>
+      <img id="logo" src="Logo.png" width="175px" height="175px" alt="Esta imagen represernta logotipo del Hospital Metropolino-506"/> 
+      <h1>HOSPITAL METROPILITANO 506</h1>
+      <!-- <p>Un hospital con las más alta tecnología en todos los aspectos</p> -->
+    </header>
+    <!-- nav sirve para delimitar el menú de la página, donde se colocarán los enlaces internos para poder moverse entre las diferentes secciones del sitio web. -->
+    <nav>
+     <!-- href Especifica la url donde se localiza la hoja de estilo. -->
+      <a href="/Banner/">Banner</a> |
+      <a href="/De/">De</a> |
+      <a href="/Imagnes/">Imagnes</a> |
+      <a href="/Informativas/">Informativas</a>
+    </nav>
+
+    <!-- Section engloba una sección de texto, imágenes y otros elementos que guardan cierta relación entre ellos -->
+    <section>
+      <ul>
+        <li><a href="index.html">| Inicio |</a>
+          <a href="url">| De su Interés |</a>
+          <a href="calendario.html">| Generación de Citas |</a>
+          <a href="url">| Expediente |</a>
+          <a href="especialidades506.html">| Servicios |</a>
+          <a href="login.html">| Loguin</a>
+        </li>
+      </ul>
+  
+      <!-- Article se suele encontrar dentro de una etiqueta section y sirve para dividir y ordenar los contenidos en su interior. -->
+      <form action="/action_page.php">
+        <label for="lname">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" value="Nombre Usuario" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id=email name="email" required><br><br>      
+        <label for="lname">Constraseña:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <a href="especialidades506.html">Ingresar</a>
+
+
+        <!-- <button href="calendario.html">Nombre botón</button>
+        <input type="submit" value="Ingresar" href="calendario.html">
+        <a href="calendario.html">Elija su cita</a> -->
+
+      
+      </form> 
+    </section>
+    <footer>
+      <br><br>
+      <!-- <button style="background-color:rgb(200, 222, 233);">Contactenos</button>   -->
+      <li>Contactenos</li>
+      <li> Llame al
+        (900)9999-9999
+      </li>
+      <p>Correo Electronico: <a href="mailto:metropolitano506@hospital.com">metropolitano506@hospital.com</a></p>
+      <h4>Ubicación</h4>
+      <p>San José</p>
+      <li>Escazú </li>
+    </footer>
+  
+  </body>
+</div>
+
+
+</html>

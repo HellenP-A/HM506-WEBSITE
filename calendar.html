@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleCalendario.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>HOSPITAL 506</title>
+  </head>
+  <body>
+    <div id="contenedor">
+      <div id="header">
+        <img
+          id="logo"
+          src="Logo.png"
+          alt="Logotipo del Hospital Metropolino-506"
+        />
+        <h1 id="titulo">HOSPITAL METROPILITANO 506</h1>
+      </div>
+      <div id="nav">
+        <a class="aNavegacion" href="index.html"> Inicio |</a>
+        <a class="aNavegacion" href="login.html">| De su Interés |</a>
+        <a class="aNavegacion" href="login.html">| Generación de Citas |</a>
+        <a class="aNavegacion" href="login.html">| Expediente |</a>
+        <a class="aNavegacion" href="login.html">| Servicios |</a>
+        <a class="aNavegacion" href="login.html">| Login</a>
+      </div>
+
+      <div id="contenido">
+        <div id="section">
+
+        <!-- Article se suele encontrar dentro de una etiqueta section y sirve para dividir y ordenar los contenidos en su interior. -->     
+        <h2>Agende su cita médica:</h2>
+        <br>
+        <!-- ALT Si una imagen no se puede mostrar por alguna razón, el atributo ALT proporciona texto alternativo para mostrar en su lugar.-->
+        <div class="displayForm" id="myAddForm">
+          
+          <table>
+            <tr>
+              <td>
+                Nombre del Paciente: <br>
+              </td>
+              <td>
+                <input  class="form-control"  type="text" id="nombrePaciente"  >
+              </td>
+            </tr>
+            <tr>
+              <td>Seleccione una fecha: <br></td>
+              <td>
+               <input  class="form-control"  type="date" id="start" name="trip-start"
+               value="2021-08-23"
+               min="2021-08-23" max="2021-12-31"> 
+                <!-- <input type = "text" placeholder="YYYY-MM-DD" id = "eventDate"> -->
+               </td> 
+            </tr>
+            <tr>
+              <td>Seleccione una hora:<br></td>
+              <td><input  class="form-control"  type="text" placeholder="00:00" id="eventTime"></td>
+            </tr>
+            <tr>
+              <td>El lugar de la Cita Médica: <br></td>
+              <td>  
+                <select class="form-select" aria-label="Default select example" id = "CategoryChooser">
+                <option value="1">San José</option> 
+                <option value="2">Escazú</option> 
+                <option value="3">Guadalupe</option>
+                <option value="10">Coronado</option> 
+              </select></td>
+            </tr>
+            <tr>
+              <td>
+                Especialidad:
+              </td>
+              <td>
+                <select class="form-select" aria-label="Default select example" id = "CategoryChooser">
+                  <option value="1">Medicina General</option> 
+                  <option value="2">Nutrición</option> 
+                  <option value="3">Psicología</option>
+                  <option value="10">Ortopedia</option> 
+                  <option value="11">Odontología</option> 
+                  <option value="12">Cardiología</option> 
+                  <option value="13">Fisiatria</option> 
+                  <option value="14">Laboratorio</option> 
+                </select>
+              </td>
+            </tr> 
+            <tr>
+              <td>
+
+               <button class="btn btn-primary" type="button" id = "add_Event_Button" href="index.html"> Agendar Cita </button>
+               <button type="button" class="btn btn-danger" id = "delete_Event_Button" href="index.html"> Eliminar  </button>
+               <button type="button" class="btn btn-warning" id = "close_Event_Button" href="index.html"> Salir </button> 
+
+              </td>        
+            </tr>
+          </table>
+
+
+        
+        </div>         
+      </div>
+      </div>
+      <div id="footer">
+        <article class="articuloPie">
+          <h3>Contactenos</h3>
+          <p class="parrafo2">Llame al (900)9999-9999</p>
+          <br />
+          <p class="parrafo2">
+            Correo Electronico:
+            <a href="mailto:metropolitano506@hospital.com"
+              >metropolitano506@hospital.com</a
+            >
+          </p>
+        </article>
+        <article class="articuloPie2">
+          <h3>Ubicación</h3>
+          <p class="parrafo2">San José - Escazú</p>
+          <br />
+          <p class="parrafo2">Guadalupe - Coronado</p>
+        </article>
+      </div>
+    </div>
+         <!-- load the JavaScript files -->
+         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+         <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+         <script type="text/javascript" src="ajaxCalender.js"></script>
+         <script type="text/javascript" src = "calender.js"></script>
+         <script src="funciones.js"></script>
+  </body>
+</html>

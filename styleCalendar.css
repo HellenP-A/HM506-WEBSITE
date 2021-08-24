@@ -1,0 +1,209 @@
+
+
+body {font-family: Verdana, sans-serif;}
+
+
+
+.month ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.month {
+    padding: 70px 25px;
+    width: 96.3%;
+    background: #82DDED;
+}
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0.2%;
+    padding: 10px 0;
+    background-color:#ddd;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 800px;
+    position:relative;
+}
+/*
+td {
+    vertical-align: top;
+}
+
+.weekdays tr .days {
+    position: relative;
+    line-height: 7em;
+    text-align: left;
+    font-size:12px;
+    color :#FFFFFF;
+    border: 1px solid black;
+
+}*/
+
+/* Days (1-31) */
+/*.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0.2%;
+}
+*/
+
+
+* {
+  font-size: 90%;
+
+}
+
+body {
+  margin: 0.5em;
+}
+
+
+summary {
+  padding-bottom: 0.25em;
+  font-size: 1.5em;
+  font-weight: 100;
+  text-align: right;
+}
+
+.weekdays tr {
+  position: relative;
+}
+
+.weekdays th {
+  text-align: right;
+  color: #999;
+  font-weight: normal;
+  font-size: 0.85em;
+}
+
+.weekdays td {
+  width: 14.285714286%;
+}
+
+.active {
+  text-align: left;
+  display: block;
+  height: 0;
+  font-size: 0.8em;
+  padding: 0.25em;
+  padding-bottom: 73%;
+  position: relative;
+  border-bottom: 1px solid rgb(222, 219, 219);
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  background: #FCFCFC;
+
+  /* ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #333;
+  } */
+  
+  /* ul {
+    text-align: left;
+    font-size: 0.9em;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    font-weight: normal;
+  } */
+  
+  /* li {
+    color: #222;
+    width: 100%;
+    height: 1.4em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative; */
+
+    /* &:before{
+       content: '\2022';
+       color: inherit;
+       display: inline-block;
+       padding-right: 0.25em;
+    } 
+  }*/
+  
+}
+
+
+.inactive
+{
+    text-align: left;
+   
+  display: block;
+  height: 0;
+  font-size: 1em;
+  padding: 0.25em;
+  padding-bottom: 73%;
+  position: relative;
+  border-bottom: 1px solid rgb(222, 219, 219);
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+
+  
+}
+
+
+
+
+.addEvent{
+    position: relative;
+    left:    0;
+    bottom:   0;
+}
+
+.displayForm {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    width:15em;
+    height:25em;
+    margin-top: -12.5em; /*set to a negative number 1/2 of your height*/
+    margin-left: -7.5em; /*set to a negative number 1/2 of your width*/
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    visibility: hidden;
+    opacity: 0.95;
+}
+
+.time {
+  float: right;
+  text-align: right;
+  color: #999;
+}
+
+.event {
+  color: #333;
+}
+
+
+
+
+
+
+/* Resources1× 0.5× 0.25×Rerun */

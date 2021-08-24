@@ -1,0 +1,73 @@
+ 
+
+   <head>
+     <meta charset="utf-8"/>
+     <title>Calendario_H506</title>
+     <link rel="stylesheet" type="text/css" href="calenderio.css">
+   
+   </head>
+   <body>
+     <div class="displayForm" id="myAddForm">
+       <h4>Agende su cita médica:</h4>
+       <table>
+         <tr>
+           <td>
+             Nombre del Paciente: <br>
+           </td>
+           <td>
+             <input type="text" id="eventTitle" >
+           </td>
+         </tr>
+         <tr>
+           <td>Seleccine una fecha disponible: <br></td>
+           <td>
+            <input type="date" id="start" name="trip-start"
+            value="2021-07-19"
+            min="2021-01-01" max="2021-12-31"> 
+             <!-- <input type = "text" placeholder="YYYY-MM-DD" id = "eventDate"> -->
+            </td> 
+         </tr>
+         <tr>
+           <td>Seleccione una hora disponible:<br></td>
+           <td><input type="text" placeholder="09:00" id="eventTime"></td>
+         </tr>
+         <tr>
+           <td>El lugar de la Cita Médica: <br></td>
+           <td> <input type="text" id="eventLocation" ></td>
+         </tr>
+         <tr>
+           <td>
+             Especialidad:
+           </td>
+           <td>
+             <select id = "CategoryChooser">
+               
+             </select>
+           </td>
+         </tr>
+       </table>
+       <button type="submit" id = "add_Event_Button"  href="index.html"> Agendar Cita </button>
+       <button class = popup id = "delete_Event_Button"> Eliminar  </button>
+       <button type="submit" id = "close_Event_Button"> Salir </button>
+     </div>
+
+     
+   
+     
+      <!-- load the JavaScript files -->
+     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+     <script type="text/javascript" src="ajaxCalender.js"></script>
+     <script type="text/javascript" src = "calender.js"></script>
+     
+     
+   </body>
+   </html>
+   
+   
+   
+   <!-- Resources1× 0.5× 0.25×Rerun -->
+
+ 
+
+   
